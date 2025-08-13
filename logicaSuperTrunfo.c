@@ -174,10 +174,10 @@ int main () {
         printf("A quantiade de Pontos Turisticos da Cidade %s é %lu\n", NomedaCidade1, populacao1);
         printf("A quantiade de Pontos Turisticos da Cidade %s é %lu\n", NomedaCidade2, populacao2);
 
-        if (PIB1 > PIB2)
+        if (NumPontosTuristicos1 > NumPontosTuristicos2)
         {
             printf ("A Cidade Vencedora é %s\n", NomedaCidade1);
-        } else if (PIB1 < PIB2)
+        } else if (NumPontosTuristicos1 < NumPontosTuristicos2)
         {
             printf ("A cidade Vencedora é %s\n", NomedaCidade2);
         }
